@@ -1,9 +1,11 @@
-import CreateRoom from "../component/createRoom"
+import CreateRoom from "../component/createRoom";
 
-export const Home : React.FC = () => {
-    return(
+const Home: React.FC = () => {
+    return (
         <div className="h-[100vh] flex items-center justify-center">
-            <CreateRoom/>
+            <CreateRoom />
         </div>
     )
 }
+
+export default Home;
